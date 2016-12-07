@@ -38,7 +38,6 @@ public class ArgentumBean implements Serializable {
 	public ArgentumBean() {
 		this.negociacoes = new ClienteWebService().getNegociacoes();
 		geraGrafico();
-		var grafico = "Teste";
 	}
 
 	public void geraGrafico() {
